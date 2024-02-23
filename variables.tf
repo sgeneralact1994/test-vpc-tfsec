@@ -37,7 +37,3 @@ variable "ingress_public_subnet_cidr" {
   description = "cidr range for all public subnets "
 }
 
-variable "ingress_tgw_subnet_cidr" {
-  type        = list(any)
-  description = "cidr range tgw subnet"
-}
