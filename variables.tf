@@ -14,12 +14,6 @@ variable "account_name" {
   description = "aws account name"
 }
 
-variable "super_cidr" {
-  type        = string
-  description = "cidr range for maximum traffic"
-}
-
-
 #variable for ingress vpc
 
 variable "azs_ingress" {

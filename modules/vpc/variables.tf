@@ -10,11 +10,6 @@ variable "environment" {
 
 }
 
-variable "super_cidr" {
-  type        = string
-  description = "cidr range for maximum traffic"
-}
-
 #variable for ingress vpc
 
 variable "azs_ingress" {
